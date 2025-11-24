@@ -2,6 +2,7 @@ version: '3.9'
 
 services:
   web:
+    container_name: tasks_backend
     build: .
     ports:
       - "8069:8000" # i have a service running in port 8000
